@@ -5,18 +5,16 @@ public class Number {
     private static final int MODULO_EVEN = 0;
 
     private final int value;
-    private final int index;
 
-    public Number(int value, int index) {
+    public Number(int value) {
         this.value = value;
-        this.index = index;
     }
 
     public boolean isEven() {
         return value % DIVISOR == MODULO_EVEN;
     }
 
-    public String getTextInfo() {
+    public String getTextInfo(int index) {
         return "[index: " + index + "] value = " + value;
     }
 }

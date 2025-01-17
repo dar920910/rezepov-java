@@ -9,10 +9,10 @@ public class Main {
         System.out.println("Even Numbers: ");
         for (int index = 0; index < INTEGERS.length; index++) {
             int integer = INTEGERS[index];
-            Number number = new Number(integer, index);
+            Number number = new Number(integer);
 
             if (number.isEven()) {
-                String text = number.getTextInfo();
+                String text = number.getTextInfo(index);
                 System.out.println(text);
             }
         }
