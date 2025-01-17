@@ -14,6 +14,6 @@ public class Main {
 
         StringEqualityChecker checker = new StringEqualityChecker(firstStr, secondStr);
         String result = checker.getEqualitySummary();
-        System.out.println(result);
+        System.out.println("EQUALITY CHECKING RESULT: " + result);
     }
 }

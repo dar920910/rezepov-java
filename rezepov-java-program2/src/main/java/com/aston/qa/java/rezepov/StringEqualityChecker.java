@@ -13,14 +13,10 @@ public class StringEqualityChecker {
     }
 
     public String getEqualitySummary() {
-        String summary = "EQUALITY CHECKING RESULT: ";
-
         if (first.equals(second)) {
-            summary += STRINGS_ARE_EQUAL_TEXT;
+            return STRINGS_ARE_EQUAL_TEXT;
         } else {
-            summary += STRINGS_ARE_NOT_EQUAL_TEXT;
+            return STRINGS_ARE_NOT_EQUAL_TEXT;
         }
-
-        return summary;
     }
 }
