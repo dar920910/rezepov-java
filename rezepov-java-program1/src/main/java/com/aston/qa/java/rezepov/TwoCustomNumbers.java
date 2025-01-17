@@ -11,7 +11,7 @@ public class TwoCustomNumbers {
 
     public String getLogicalComparisonResult() {
         if (MathOperations.areEqualIntegers(number_1.getValue(), number_2.getValue())) {
-            return number_1.getName() + " == " + number_2.getName();
+            return number_1.getName() + " = " + number_2.getName();
         } else if (MathOperations.isFirstMoreThanSecond(number_1.getValue(), number_2.getValue())) {
             return number_1.getName() + " > " + number_2.getName();
         } else {
